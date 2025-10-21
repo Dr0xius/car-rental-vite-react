@@ -11,9 +11,9 @@ const Nav = () => {
     <>
       <nav>
         <div className="nav__container">
-          <a href="" className="nav__img__wrapper">
+          <Link to="/" className="nav__img__wrapper">
             <img src={NavLogo} alt="" className="nav__img" />
-          </a>
+          </Link>
           <div className="nav__links">
             <Link to="/" className="nav__link">
               Home
